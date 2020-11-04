@@ -22,10 +22,10 @@
                     echo "<li><a href = '#'>$catTitle</a></li>";
                     
                 }
-
-
-
                 ?>
+                <li>
+                    <a href="admin">ADMIN</a>
+                </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

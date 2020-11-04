@@ -1,9 +1,8 @@
-<?php include "includes/admin_header.php";?>
-
+    <?php include "include/admin_header.php"; ?>
     <div id="wrapper">
 
         <!-- Navigation -->
-        <?php include "includes/admin_navigation.php";?>
+        <?php include "include/admin_navigation.php"; ?>
 
         <div id="page-wrapper">
 
@@ -13,17 +12,17 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Blank Page
-                            <small>Subheading</small>
+                            Welcome to Admin
+                            <small>Author</small>
                         </h1>
-                        <ol class="breadcrumb">
+                        <!-- <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                             </li>
                             <li class="active">
                                 <i class="fa fa-file"></i> Blank Page
                             </li>
-                        </ol>
+                        </ol> -->
                     </div>
                 </div>
                 <!-- /.row -->
@@ -38,11 +37,5 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <?php include "include/admin_footer.php"; ?>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
